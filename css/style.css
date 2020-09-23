@@ -40,7 +40,8 @@ header {
 }
 
 .fa-times-circle,
-.fa-check {
+.fa-check,
+.reporttext {
     float: right;
 }
 
@@ -71,6 +72,17 @@ header {
 .checked {
     color: #1fb1f4;
     font-weight: 700;
+}
+.notification,.reporttext{
+    padding-top: 1rem;
+}
+.reporttext{
+    color: #1fb1f4;
+    font-weight: 700;
+}
+
+.mui-divider{
+   margin: 0 1rem 0 1rem;
 }
 
 /* The Modal (background) */
