@@ -35,15 +35,20 @@ header {
 
 
 /* sanae's css */
-.fa-hand-holding-water{
+.fa-hand-holding-water {
     font-size: 5rem;
 }
-.fa-times-circle, .fa-check{
+
+.fa-times-circle,
+.fa-check {
     float: right;
 }
-.fa-check,.mui--text-dark{
-    padding: 1rem 0 1rem 0;
+
+.fa-check,
+.mui--text-dark {
+    padding: 0.5rem 0 0.5rem 0;
 }
+
 .stars {
     padding-top: 1.5rem;
 }
@@ -55,14 +60,16 @@ header {
     font-weight: 700;
 }
 
-.check-off{
+.check-off {
     color: #232324;
 }
-.image{
+
+.image {
     height: 40%;
 }
-.checked{
-    color: #1fb1f4; 
+
+.checked {
+    color: #1fb1f4;
     font-weight: 700;
 }
 
