@@ -23,11 +23,17 @@ header {
     align-items: center;
     justify-content: center;
 }
-.far, .fas {
+
+.far,
+.fas {
     font-size: 3em;
-color: #1fb1f4;
+    color: #1fb1f4;
 }
 
 .rating {
     display: flex;
 }
+
+
+
+/* sanae's css */

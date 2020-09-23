@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oasis</title>
+    <link href="https://cdn.muicss.com/mui-0.10.3/css/mui.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/all.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.muicss.com/mui-0.10.3/js/mui.min.js"></script>
+</head>
+
+<body>
+    
+   
+      <div>
+      <button class="mui-btn mui-btn--primary" onclick="activateModal()">Activate modal</button>
+    </div>
+    <script>
+        function activateModal() {
+          // initialize modal element
+          var modalEl = document.createElement('div');
+          modalEl.style.width = '90%';
+          modalEl.style.height = '70%';
+          modalEl.style.margin = '1em auto';
+          modalEl.style.backgroundColor = '#fff';
+      
+          // show modal
+          mui.overlay('on', modalEl);
+        }
+      </script>
+</body>
+
+</html>
