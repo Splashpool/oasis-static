@@ -73,16 +73,19 @@ header {
     color: #1fb1f4;
     font-weight: 700;
 }
-.notification,.reporttext{
+
+.notification,
+.reporttext {
     padding-top: 1rem;
 }
-.reporttext{
+
+.reporttext {
     color: #1fb1f4;
     font-weight: 700;
 }
 
-.mui-divider{
-   margin: 0 1rem 0 1rem;
+.mui-divider {
+    margin: 0 1rem 0 1rem;
 }
 
 /* The Modal (background) */
