@@ -25,112 +25,140 @@ header {
 }
 
 .far,
-.fas ,.close{
-   
+.fas {
+
     font-size: 1rem;
     color: #1fb1f4;
- 
+
 }
 
 
+
 /* sanae's css */
-.fa-times-circle{
-    float:right;
+.fa-hand-holding-water{
+    font-size: 5rem;
+}
+.fa-times-circle, .fa-check{
+    float: right;
+}
+.fa-check,.mui--text-dark{
+    padding: 1rem 0 1rem 0;
 }
 .stars {
     padding-top: 1.5rem;
 }
-.rating h3{
- 
-    font-size: rem;
+
+.rating h3 {
+
+    font-size: 1rem;
     float: right;
+    font-weight: 700;
 }
 
-
-
+.check-off{
+    color: #232324;
+}
+.image{
+    height: 40%;
+}
+.checked{
+    color: #1fb1f4; 
+    font-weight: 700;
+}
 
 /* The Modal (background) */
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-  
-  /* Modal Content/Box */
-  .modal-content {
-
-    background-color: rgb(237, 240, 243);
-    margin: 2rem auto; /* 15% from the top and centered */
-    padding: 0 ;
-    border: 1px solid #888;
-    width: 50%; /* Could be more or less, depending on screen size */
-  }
-  
-.modal-image {
-  background-color: white;
-  width: 100%;
-  height: 20%;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
 }
 
-  /* The Close Button */
-  .close {
+/* Modal Content/Box */
+.modal-content {
+
+    background-color: rgb(237, 240, 243);
+    margin: 2rem auto;
+    /* 15% from the top and centered */
+    padding: 0;
+    border: 1px solid #888;
+    width: 50%;
+    /* Could be more or less, depending on screen size */
+}
+
+.modal-image {
+    background-color: white;
+    width: 100%;
+    height: 20%;
+}
+
+/* The Close Button */
+.close {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
+}
+
+.close:hover,
+.close:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
-  }
-  /*image css */
-  .image img{
+}
+
+/*image css */
+.image img {
     max-width: 100%;
     height: auto;
     display: block;
-    
 
-  }
 
-  @media only screen and (max-width: 700px) {
-    .modal-content { 
+}
+
+@media only screen and (max-width: 700px) {
+    .modal-content {
         width: 70%;
-  
-      }
+
     }
-  @media only screen and (max-width: 550px) {
-    .modal-content { 
+}
+
+@media only screen and (max-width: 550px) {
+    .modal-content {
         width: 90%;
-  
-      }
+
     }
+}
 
 
 
-  /* Chi's CSS */
-  .rating-padding {
+/* Chi's CSS */
+.rating-padding {
     display: block;
     text-indent: 3rem;
 }
 
 .rating-text {
-  font-weight: 700;
-  font-size: 2rem;
-  vertical-align: middle;
+    font-weight: 700;
+    font-size: 2rem;
+    vertical-align: middle;
 }
 
-  .check-button {
+.check-button {
     font-size: 1.5rem;
     vertical-align: middle;
-  }
-
+}
