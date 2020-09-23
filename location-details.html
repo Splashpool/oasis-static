@@ -21,24 +21,24 @@
 
     <!-- Modal content -->
     <div class="modal-content mui-container splash-container">
-      <span class="close">&times;</span>
+      <i class="fas fa-times-circle "></i>
       <div class="mui-row">
         <div class="mui-col-xs-12  image">
           <img src="images/well.jpg" />
         </div>
       </div>
       <div class="mui-row">
-        <div class="mui-col-xs-offset-3 mui-col-xs-3  rating" style="border: 1px solid blue;">
-        <h3>Rating</h3>
+        <div class="mui-col-xs-offset-3 mui-col-xs-3  rating">
+          <h3>Rating</h3>
         </div>
-        <div class=" mui-col-xs-6 rating   " style="border: 1px solid red;">
-          <ul>
+        <div class=" mui-col-xs-6   stars ">
+
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
           <i class="far fa-star"></i>
-        </ul>
+
         </div>
       </div>
     </div>
@@ -55,7 +55,7 @@
   var btn = document.getElementById("myBtn");
 
   // Get the <span> element that closes the modal
-  var span = document.getElementsByClassName("close")[0];
+  var span = document.getElementsByClassName("fa-times-circle")[0];
 
   // When the user clicks on the button, open the modal
   btn.onclick = function () {

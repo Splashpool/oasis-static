@@ -25,21 +25,30 @@ header {
 }
 
 .far,
-.fas {
-    padding-top: 1.5rem;
+.fas ,.close{
+   
     font-size: 1rem;
     color: #1fb1f4;
  
 }
 
+
+/* sanae's css */
+.fa-times-circle{
+    float:right;
+}
+.stars {
+    padding-top: 1.5rem;
+}
 .rating h3{
  
     font-size: rem;
+    float: right;
 }
 
 
 
-/* sanae's css */
+
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
@@ -60,7 +69,7 @@ header {
     margin: 2rem auto; /* 15% from the top and centered */
     padding: 0 ;
     border: 1px solid #888;
-    width: 90%; /* Could be more or less, depending on screen size */
+    width: 50%; /* Could be more or less, depending on screen size */
   }
   
   /* The Close Button */
@@ -85,3 +94,15 @@ header {
     
 
   }
+  @media only screen and (max-width: 700px) {
+    .modal-content { 
+        width: 70%;
+  
+      }
+    }
+  @media only screen and (max-width: 550px) {
+    .modal-content { 
+        width: 90%;
+  
+      }
+    }
