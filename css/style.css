@@ -26,12 +26,15 @@ header {
 
 .far,
 .fas {
-    font-size: 3em;
+    padding-top: 1.5rem;
+    font-size: 1rem;
     color: #1fb1f4;
+ 
 }
 
-.rating {
-    display: flex;
+.rating h3{
+ 
+    font-size: rem;
 }
 
 
@@ -53,11 +56,11 @@ header {
   
   /* Modal Content/Box */
   .modal-content {
-    background-color: #1fb1f4;
-    margin: 5rem auto; /* 15% from the top and centered */
+    background-color: rgb(237, 240, 243);
+    margin: 2rem auto; /* 15% from the top and centered */
     padding: 0 ;
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 90%; /* Could be more or less, depending on screen size */
   }
   
   /* The Close Button */
