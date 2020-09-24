@@ -73,19 +73,16 @@ header {
     color: #1fb1f4;
     font-weight: 700;
 }
-
-.notification,
-.reporttext {
+.notification,.reporttext{
     padding-top: 1rem;
 }
-
-.reporttext {
+.reporttext{
     color: #1fb1f4;
     font-weight: 700;
 }
 
-.mui-divider {
-    margin: 0 1rem 0 1rem;
+.mui-divider{
+   margin: 0 1rem 0 1rem;
 }
 
 /* The Modal (background) */
@@ -154,14 +151,14 @@ header {
 
 @media only screen and (max-width: 700px) {
     .modal-content {
-        width: 50%;
+        width: 70%;
 
     }
 }
 
 @media only screen and (max-width: 550px) {
     .modal-content {
-        width: 100%;
+        width: 90%;
 
     }
 }
@@ -183,47 +180,4 @@ header {
 .check-button {
     font-size: 1.5rem;
     vertical-align: middle;
-}
-
-/* Elena's style */
-.mui-appbar {
-    background-color: #232324;
-    height: 36px; 
-}
-
-.mui-col-md-8 {
-    height: 100vh;
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    justify-content: center;
-}
-
-.mui--text-subhead , .mui--text-body2{
-    color: white;
-}
-
-.mui--appbar-height, .mui-appbar, .mui--appbar-min-height {
-    height:36px;
- /*   min-height: 36px; */
-}
-
-.fa-toggle-on {
-    height: 1rem;
-   }
-
-.oasis_icons {
-    color: white;
-    font-size: 1.5rem;
-}
-.table-oasis {
-    border: none;
-}
-.responsive {
-    width: 100%;
-    height: auto;
-  }
-
-.mui-btn--flat {
-    text-size-adjust: 50%;
 }
