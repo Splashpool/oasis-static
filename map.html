@@ -11,13 +11,87 @@
 </head>
 
 <body>
-    <div class="rating mui-col-xs-8">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star-half"></i>
-        <i class="far fa-star"></i>
-    </div>
+    <div class="mui-container oasis_icons">
+        <!-- The menu bar-->
+        <div class="mui-row">
+            <div class="mui-col-xs-12" text-align="center">
+                <div class="mui-appbar oasis_icons">
+                    <table width="100%" height="36px">
+                        <tr style="vertical-align:middle;">
+                            <td class="mui--appbar-height">
+                                <i class="fas fa-bars oasis_icons" onclick="activateModal()" ;></i>
+                            </td>
+                            <td class="mui--appbar-height" text-align="center">
+                                Your Location
+                            </td>
+                            <td class="mui--appbar-height" text-align="right">
+                                <i class="fas fa-search-location oasis_icons" onclick="activateModal()"></i>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+
+            <!-- Map placeholder -->
+            <div class="mui-row">
+                <div class="mui-col-xs-12  image" align="center" ;>
+                    <img src="images/placeholder.png" alt="Map will be loaded later" class="responsive" width="600"
+                        height="400" />
+                </div>
+            </div>
+
+            <!-- Filter Results -->
+            <div class="mui-row .table-oasis">
+                <div class="mui-col-xs-12">
+                    <table class="mui-table table-oasis">
+                        <thead>
+                            <tr>
+                                <th class="mui--text-subhead">Filter Results</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="mui--text-body2">Water</td>
+                                <td class="mui-radio">
+                                    <i class="fas fa-toggle-on oasis_icons size 2x" text-align="right"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="mui--text-body2">Toilets</td>
+                                <td class="mui-radio">
+                                    <i class="fas fa-toggle-on oasis_icons size 2x" text-align="right"></i>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+             <!-- Save for later button -->
+             <div class="mui-row ">
+                <div class="mui-col-xs-12">
+                    <button class="mui-btn mui-col-xs-4 mui-col-xs-offset-2 mui-col-md-4 mui-col-md-offset-6">SAVE FOR LATER</button>
+                </div>
+            </div>
+
+
+        </div>
+
 </body>
+
+<script>
+    function activateModal() {
+        // initialize modal element
+        var modalEl = document.createElement('div');
+        modalEl.style.width = '400px';
+        modalEl.style.height = '300px';
+        modalEl.style.margin = '100px auto';
+        modalEl.style.backgroundColor = '#fff';
+
+        // show modal
+        mui.overlay('on', modalEl);
+    }
+</script>
 
 </html>
