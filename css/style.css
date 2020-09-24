@@ -29,10 +29,10 @@ header {
     color: #1FB0F5;
     background-color: transparent;
 }
+
 .mui-btn.mui-btn--flat.spl--text-btn:hover,
 .mui-btn.mui-btn--flat.spl--text-btn:focus,
-.mui-btn.mui-btn--flat.spl--text-btn:active
- {
+.mui-btn.mui-btn--flat.spl--text-btn:active {
     color: white;
 }
 
@@ -75,26 +75,25 @@ header {
     font-size: 1rem;
     float: right;
     font-weight: 700;
-}
-
-.check-off {
     color: #232324;
 }
 
-.checked {
-    color: #1fb1f4;
-    font-weight: 700;
-}
-.notification,.reporttext{
-    padding-top: 1rem;
-}
-.reporttext{
-    color: #1fb1f4;
-    font-weight: 700;
+.mui-btn.mui-btn--flat.spl--text-btn2 {
+    color: #1FB0F5;
 }
 
-.mui-divider{
-   margin: 0 1rem 0 1rem;
+.mui-btn.mui-btn--flat.spl--text-btn2:hover,
+.mui-btn.mui-btn--flat.spl--text-btn2:focus {
+    color: #232324;
+}
+
+.spl-form {
+
+    color: #232324;
+}
+
+.spl-detail-btn {
+    padding-right: 2rem;
 }
 
 /* The Modal (background) */
@@ -198,26 +197,30 @@ header {
 /* Elena's style */
 .mui-appbar {
     background-color: #232324;
-    height: 36px; 
+    height: 36px;
 }
 
-.mui--text-subhead , .mui--text-body2{
+.mui--text-subhead,
+.mui--text-body2 {
     color: white;
 }
 
-.mui--appbar-height, .mui-appbar, .mui--appbar-min-height {
-    height:36px;
- /*   min-height: 36px; */
+.mui--appbar-height,
+.mui-appbar,
+.mui--appbar-min-height {
+    height: 36px;
+    /*   min-height: 36px; */
 }
 
 .fa-toggle-on {
     height: 1rem;
-   }
+}
 
 .oasis_icons {
     color: white;
     font-size: 1.5rem;
 }
+
 .table-oasis {
     border: none;
 }
