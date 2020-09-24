@@ -11,8 +11,9 @@
 </head>
 
 <body>
-    <div class="mui-container oasis_icons">
-        <!-- The menu bar-->
+    <div class="mui-container">
+        <!-- The menu bar - Use Material UI React component
+        https://material-ui.com/components/app-bar/-->
         <div class="mui-row">
             <div class="mui-col-xs-12" text-align="center">
                 <div class="mui-appbar oasis_icons">
@@ -31,67 +32,55 @@
                     </table>
                 </div>
             </div>
+        </div>
+        <!-- The menu bar -->
 
-
-            <!-- Map placeholder -->
-            <div class="mui-row">
-                <div class="mui-col-xs-12  image" align="center" ;>
-                    <img src="images/placeholder.png" alt="Map will be loaded later" class="responsive" width="600"
-                        height="400" />
-                </div>
+        <!-- Map placeholder -->
+        <div class="mui-row">
+            <div class="mui-col-md-8 mui-col-md-offset-2">
+                <img src="images/placeholder.png" alt="Image of a Map: name of the location" class="image" />
             </div>
-
-            <!-- Filter Results -->
-            <div class="mui-row .table-oasis">
-                <div class="mui-col-xs-12">
-                    <table class="mui-table table-oasis">
-                        <thead>
-                            <tr>
-                                <th class="mui--text-subhead">Filter Results</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="mui--text-body2">Water</td>
-                                <td class="mui-radio">
-                                    <i class="fas fa-toggle-on oasis_icons size 2x" text-align="right"></i>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="mui--text-body2">Toilets</td>
-                                <td class="mui-radio">
-                                    <i class="fas fa-toggle-on oasis_icons size 2x" text-align="right"></i>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
-             <!-- Save for later button -->
-             <div class="mui-row ">
-                <div class="mui-col-xs-12">
-                    <button class="mui-btn mui-col-xs-4 mui-col-xs-offset-2 mui-col-md-4 mui-col-md-offset-6">SAVE FOR LATER</button>
-                </div>
-            </div>
-
-
         </div>
 
+        <!-- Filter Results -->
+
+        <div class="mui-row">
+            <div class="mui-col-md-8 mui-col-md-offset-2">
+                <h3>Filter Results</h3>
+            </div>
+            <!-- Use Material UI React component for this
+                https://material-ui.com/components/switches/-->
+            <div class="mui-col-md-8 mui-col-md-offset-2">
+                <div class="mui-row">
+                    <div class="mui-col-xs-6">
+                        <p>Water</p>
+                    </div>
+                    <div class="mui-col-xs-6 mui--text-right">
+                        <i class="fas fa-toggle-on"></i>
+                    </div>
+                </div>
+                <div class="mui-row">
+                    <div class="mui-col-xs-6">
+                        <p>Toilet</p>
+                    </div>
+                    <div class="mui-col-xs-6 mui--text-right">
+                        <i class="fas fa-toggle-on"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- End Use Material UI React-->
+        </div>
+
+        <!-- Save for later button -->
+        <div class="mui-row">
+            <div class="mui-col-md-8 mui-col-md-offset-2 mui--text-right">
+                <button class="mui-btn mui-btn--flat spl--text-btn">Save for later</button>
+            </div>
+        </div>
+
+
+    </div>
+
 </body>
-
-<script>
-    function activateModal() {
-        // initialize modal element
-        var modalEl = document.createElement('div');
-        modalEl.style.width = '400px';
-        modalEl.style.height = '300px';
-        modalEl.style.margin = '100px auto';
-        modalEl.style.backgroundColor = '#fff';
-
-        // show modal
-        mui.overlay('on', modalEl);
-    }
-</script>
 
 </html>
