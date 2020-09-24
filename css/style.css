@@ -3,6 +3,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #232324;
+    color: white;
 }
 
 header {
@@ -16,12 +17,23 @@ header {
     font-size: 3rem;
 }
 
-.mui-col-md-12 {
+.intro {
     height: 100vh;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
+}
+
+.mui-btn.mui-btn--flat.spl--text-btn {
+    color: #1FB0F5;
+    background-color: transparent;
+}
+.mui-btn.mui-btn--flat.spl--text-btn:hover,
+.mui-btn.mui-btn--flat.spl--text-btn:focus,
+.mui-btn.mui-btn--flat.spl--text-btn:active
+ {
+    color: white;
 }
 
 .far,
@@ -32,6 +44,10 @@ header {
 
 }
 
+.image {
+    width: 100%;
+    height: auto;
+}
 
 
 /* sanae's css */
@@ -63,10 +79,6 @@ header {
 
 .check-off {
     color: #232324;
-}
-
-.image {
-    height: 40%;
 }
 
 .checked {
@@ -180,4 +192,37 @@ header {
 .check-button {
     font-size: 1.5rem;
     vertical-align: middle;
+
+}
+
+/* Elena's style */
+.mui-appbar {
+    background-color: #232324;
+    height: 36px; 
+}
+
+.mui--text-subhead , .mui--text-body2{
+    color: white;
+}
+
+.mui--appbar-height, .mui-appbar, .mui--appbar-min-height {
+    height:36px;
+ /*   min-height: 36px; */
+}
+
+.fa-toggle-on {
+    height: 1rem;
+   }
+
+.oasis_icons {
+    color: white;
+    font-size: 1.5rem;
+}
+.table-oasis {
+    border: none;
+}
+
+.mui-btn--flat {
+    text-size-adjust: 50%;
+
 }
