@@ -25,7 +25,8 @@ header {
     justify-content: center;
 }
 
-.mui-btn.mui-btn--flat.spl--text-btn {
+.mui-btn.mui-btn--flat.spl--text-btn,
+.mui-btn.mui-btn--flat.spl--text-btn-2 {
     color: #1FB0F5;
     background-color: transparent;
 }
@@ -35,6 +36,28 @@ header {
 .mui-btn.mui-btn--flat.spl--text-btn:active {
     color: white;
 }
+.mui-btn.mui-btn--flat.spl--text-btn-2:hover,
+.mui-btn.mui-btn--flat.spl--text-btn-2:focus,
+.mui-btn.mui-btn--flat.spl--text-btn-2:active {
+    color: #232324;
+}
+
+.spl--pt {
+    padding-top: 1.5rem;
+}
+.spl--pb {
+    padding-bottom: 1.5rem;
+}
+.spl--mt {
+    margin-top: 1.5rem;
+}
+.spl--mb {
+    margin-bottom: 1.5rem;
+}
+.spl--mb {
+    margin-bottom: 1.5rem;
+}
+
 
 .far,
 .fas {
@@ -49,16 +72,19 @@ header {
     height: auto;
 }
 
+.rating {
+    display:flex;
+    align-items: center;
+}
+.rating h3 {
+    margin: 0;
+    padding-right: 2rem;
+}
+
 
 /* sanae's css */
 .fa-hand-holding-water {
     font-size: 5rem;
-}
-
-.fa-times-circle,
-.fa-check,
-.reporttext {
-    float: right;
 }
 
 .fa-check,
@@ -70,23 +96,6 @@ header {
     padding-top: 1.5rem;
 }
 
-.rating h3 {
-
-    font-size: 1rem;
-    float: right;
-    font-weight: 700;
-    color: #232324;
-}
-
-.mui-btn.mui-btn--flat.spl--text-btn2 {
-    color: #1FB0F5;
-}
-
-.mui-btn.mui-btn--flat.spl--text-btn2:hover,
-.mui-btn.mui-btn--flat.spl--text-btn2:focus {
-    color: #232324;
-}
-
 .spl-form {
 
     color: #232324;
@@ -96,38 +105,24 @@ header {
     padding-right: 2rem;
 }
 
-/* The Modal (background) */
 .modal {
     display: none;
-    /* Hidden by default */
     position: fixed;
-    /* Stay in place */
     z-index: 1;
-    /* Sit on top */
     left: 0;
     top: 0;
     width: 100%;
-    /* Full width */
     height: 100%;
-    /* Full height */
     overflow: auto;
-    /* Enable scroll if needed */
-    background-color: rgb(0, 0, 0);
-    /* Fallback color */
     background-color: rgba(0, 0, 0, 0.4);
-    /* Black w/ opacity */
 }
 
 /* Modal Content/Box */
 .modal-content {
-
-    background-color: rgb(237, 240, 243);
+    background-color: #e5e5e5;
     margin: 2rem auto;
-    /* 15% from the top and centered */
-    padding: 0;
-    border: 1px solid #888;
     width: 50%;
-    /* Could be more or less, depending on screen size */
+    color:  #232324;
 }
 
 .modal-image {
