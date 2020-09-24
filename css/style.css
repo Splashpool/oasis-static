@@ -223,3 +223,7 @@ header {
     width: 100%;
     height: auto;
   }
+
+.mui-btn--flat {
+    text-size-adjust: 50%;
+}
